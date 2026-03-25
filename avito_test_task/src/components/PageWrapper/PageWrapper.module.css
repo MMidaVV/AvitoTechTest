@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: calc(100vh - var(--size-64) - (var(--size-12) * 2));
+  padding: var(--size-24);
+  background: var(--color-background-page);
+  box-sizing: border-box;
+}

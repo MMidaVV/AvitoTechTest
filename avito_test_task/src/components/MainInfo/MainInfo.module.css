@@ -1,0 +1,19 @@
+.mainInfo {
+    width: 1335px;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.title, .subTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subTitle__date {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}

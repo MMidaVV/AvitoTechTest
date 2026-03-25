@@ -1,0 +1,58 @@
+.filters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 256px;
+    height: 100%;
+}
+
+.categories {
+    width: 256px;
+    height: fit-content;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-background-browser);
+    border-radius: 8px;
+}
+
+.collapse {
+    padding: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.collapse :global(.ant-collapse-header) {
+    padding: 0 !important;
+    margin-bottom: 11px;
+}
+
+.collapse :global(.ant-collapse-panel .ant-collapse-body) {
+    padding: 0 !important;
+}
+
+.rectangle {
+    width: 224px;
+    height: 1px;
+    background-color: var(--color-background-page);
+}
+
+.toggle {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 224px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clearButton {
+    width: 256px;
+    height: 41px;
+    border: none;
+    color: #848388;
+}
+

@@ -1,0 +1,36 @@
+.cardBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.appstore {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 12px;
+    column-gap: 13.75px;
+}
+
+.unorderedList {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    row-gap: 12px;
+}
+
+.pagination {
+    width: 272px;
+    height: 32px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}

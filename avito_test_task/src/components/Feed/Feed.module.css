@@ -1,0 +1,6 @@
+.feed {
+    width: 1335px;
+    height: 590px;
+    display: flex;
+    gap: 24px;
+}

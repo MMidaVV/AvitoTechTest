@@ -1,0 +1,83 @@
+.search {
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    gap: 24px;
+    background-color: var(--color-background-browser);
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.input {
+    width: 958px;
+    height: 32px;
+    border: none;
+}
+
+.input :global(.ant-input-compact-item) {
+  margin-inline-end: 0 ;
+}
+
+.actions {
+    width: 329px;
+    height: 32px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layouts {
+    width: 73px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: var(--color-background-page);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 100%;
+}
+
+.line {
+    width: 1px;
+    height: 28px;
+    background-color: var(--color-background-browser);
+}
+
+.dropdownTrigger {
+    width: 240px;
+    height: 32px;
+    background-color: var(--color-background-page);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.select {
+    width: 100%;
+    height: 22px;
+    border: none;
+}
+
+.select :global(.ant-select-selector) {
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent; 
+}
+
+.select :global(.ant-select-focused .ant-select-selector) {
+    border: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+
+.select :global(.ant-select:hover .ant-select-selector) {
+    border-color: transparent !important;
+}
+

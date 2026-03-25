@@ -1,0 +1,7 @@
+.descriptions {
+    width: 480px;
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
